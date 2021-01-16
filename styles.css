@@ -1,0 +1,602 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+a:hover {
+	text-decoration:underline;
+	color:#006400;
+}
+
+body {
+	background:#d2ffbe url(images/bgr.jpg) 278px;
+	font:13px "Ubuntu Medium", Ubuntu, sans-serif;
+	color:#000;
+	margin-top:0;
+}
+
+#content {
+	box-shadow:5px 5px 10px -1px rgba(0,0,0,0.37);
+	width:1000px;
+	text-align:left;
+	opacity:100%;
+	background:#deffd2;
+	margin:20px auto 0;
+	padding:30px;
+}
+
+#content p {
+	width:1000px;
+	font-size:24px;
+	color:dimgrey;
+	text-align:justify;
+	margin-bottom:5px;
+}
+
+#main img {
+	width:300px;
+	height:300px;
+	text-align:center;
+	margin-bottom:5px;
+}
+
+.right {
+	display:block;
+	float:right;
+}
+
+#header {
+	width:1060px;
+	height:280px;
+	text-align:center;
+	background:url(images/background.jpg) top no-repeat;
+	margin:auto;
+}
+
+#menu {
+	box-shadow:5px 5px 10px -1px rgba(0,0,0,0.37);
+	width:1040px;
+	height:90px;
+	margin-top:160px;
+	opacity:90%;
+	background:#006400 center no-repeat;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#menu ul {
+	list-style:none;
+}
+
+#menu li {
+	display:inline;
+}
+
+#menu a {
+	float:left;
+	width:260px;
+	height:60px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	font-weight:700;
+	padding-top:30px;
+	font-size:28px;
+	text-transform:uppercase;
+}
+
+#menu a:hover {
+	width:260px;
+	height:60px;
+	color:#fff;
+	text-decoration:underline;
+	background:#228B22;
+}
+
+#tour h1 {
+	font-size:36px;
+}
+
+#tour p {
+	width:550px;
+	font-size:28px;
+	color:dimgrey;
+	margin-bottom:5px;
+}
+
+#details textarea {
+	width:100%;
+	background: #e5ffe5;
+	min-width:100%;
+	min-height:50%;
+	max-width:100%;
+	max-height:50%;
+	font-size:24px;
+	box-sizing:border-box;
+	margin:8px 0;
+	padding:12px 20px;
+}
+
+#details {
+	box-shadow:5px 5px 10px -1px rgba(0,0,0,0.37);
+	width:900px;
+	background:#eeffe7;
+	margin:30px auto 0;
+	padding:30px;
+}
+
+#details div {
+	display:inline-block;
+}
+
+.row {
+	display:flex;
+}
+
+.column {
+	margin-bottom:20px;
+	float:left;
+	padding-left:50px;
+	text-align:center;
+	alignment:center;
+	flex:35%;
+}
+
+#details h1 {
+	font-size:38px;
+}
+
+#details h0 {
+	font-size:52px;
+	text-align:center;
+}
+
+#details p {
+	width:900px;
+	font-size:28px;
+	color:dimgrey;
+	text-align:justify;
+	margin-bottom:5px;
+}
+
+#details h2 {
+	width:300px;
+	font-size:42px;
+	color:#000;
+	text-align:center;
+	alignment:center;
+	font-weight:400;
+}
+
+#details h3 {
+	font-size:32px;
+	color:dimgrey;
+	font-weight:400;
+	margin-bottom:5px;
+}
+
+#details img {
+	width:900px;
+	align-self:center;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#details a {
+	text-align:center;
+	text-decoration:none;
+	background:#8FBC8F;
+	color:#fff;
+	font-weight:700;
+	font-size:24px;
+	text-transform:uppercase;
+	padding:15px;
+}
+
+.review {
+	box-shadow:5px 5px 10px -1px rgba(0,0,0,0.37);
+	width:840px;
+	background:#fbfff9;
+	alignment:center;
+	margin:30px auto 0;
+	padding:30px;
+}
+
+.review > h1 {
+	width:300px;
+	font-size:34px;
+	color:#000;
+	text-align:left;
+	margin-bottom:5px;
+}
+
+.review > h3 {
+	width:300px;
+	font-size:28px;
+	color:dimgrey;
+	text-align:left;
+	margin-bottom:5px;
+}
+
+.reviews {
+	alignment:center;
+	height:80px;
+}
+
+.reviews:not(:checked) > label {
+	float:right;
+	width:1em;
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+	font-size:50px;
+	color:#ccc;
+}
+
+.rate {
+	height:80px;
+	width:625px;
+}
+
+.rate:not(:checked) > label {
+	text-align:center;
+	width:1em;
+	display:inline-block;
+	float:right;
+	overflow:hidden;
+	white-space:nowrap;
+	cursor:pointer;
+	font-size:50px;
+	color:#ccc;
+}
+
+.review_form {
+	alignment:center;
+	text-align:center;
+	margin:0 auto;
+}
+
+input[type=submit] {
+	width:30%;
+	font-size:24px;
+	background:#e5ffe5;
+	box-sizing:border-box;
+	border-color:#006400;
+	margin:8px 0;
+	padding:12px 20px;
+}
+input[type=date] {
+	width:60%;
+	font-size:24px;
+	background:#e5ffe5;
+	box-sizing:border-box;
+	border-color:#006400;
+	margin:8px 0;
+	padding:12px 20px;
+}
+input[type=number] {
+	width:60%;
+	font-size:24px;
+	background:#e5ffe5;
+	box-sizing:border-box;
+	border-color:#006400;
+	margin:8px 0;
+	padding:12px 20px;
+}
+button {
+	background:#8FBC8F;
+	color:#fff;
+	font-size:20px;
+	font-weight:700;
+	text-transform:uppercase;
+	border-width:0;
+	padding:3px;
+}
+
+button:hover {
+	text-align:center;
+	font-weight:700;
+	font-size:24px;
+	text-transform:uppercase;
+	color:#fff;
+	text-decoration:underline;
+	background:#556B2F;
+	border-width:0;
+	padding:15px;
+}
+
+#first {
+	font-size:34px;
+	padding:10px;
+}
+
+#first button {
+	background:#cefcce;
+}
+
+#first button:hover {
+	background:#9bef9b;
+}
+
+textarea {
+	width:60%;
+	background:#e5ffe5;
+	min-height:150px;
+	max-height:400px;
+	max-width:60%;
+	font-size:24px;
+	box-sizing:border-box;
+	margin:8px 0;
+	padding:12px 20px;
+}
+
+#details select {
+	width:30%;
+	font-size:32px;
+	background:#e5ffe5;
+	box-sizing:border-box;
+	margin:8px 0;
+	padding:12px 20px;
+}
+
+#hotel h1 {
+	font-style:italic;
+	font-size:36px;
+	width:570px;
+}
+
+#hotel h2 {
+	font-style:italic;
+	font-size:32px;
+	width:570px;
+}
+
+#hotel p {
+	width:900px;
+	font-size:28px;
+	color:dimgrey;
+	margin-bottom:5px;
+}
+
+#admin {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#admin td {
+	display:block;
+	height:40px;
+	text-align:center;
+	vertical-align:bottom;
+	text-decoration:none;
+	background:#cefcce;
+	color:#000;
+	font-weight:700;
+	font-size:14px;
+	border-color:#228B22;
+	border-style:dashed;
+	border-width:1px;
+	padding:15px;
+}
+
+table {
+	width:100%;
+	margin-bottom:18px;
+	font-size:18px;
+	border:1px solid #ddd;
+	border-spacing:0;
+	border-collapse:separate;
+	color:#000;
+	padding:0;
+}
+
+table th,
+table td {
+	line-height:18px;
+	text-align:left;
+	padding:8px 8px 7px;
+}
+
+table th {
+	padding-top:9px;
+	font-weight:700;
+	vertical-align:middle;
+	color:#000;
+}
+
+table td {
+	vertical-align:center;
+	border-top:1px solid grey;
+}
+
+table th+th,
+table td+td,
+table th+td {
+	border-left:1px solid #c6e7c6;
+}
+
+table tr:hover {
+	background-color:#c6e7c6;
+}
+
+#linking a {
+	font-size:18px;
+	float:left;
+	width:auto;
+	height:auto;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+#form {
+	width:300px;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	border-width:0;
+}
+
+#form tr:hover {
+	background-color:#deffd2;
+}
+
+#form p {
+	width:400px;
+	text-align:center;
+}
+
+#page_nav {
+	margin-top:30px;
+	width:40px;
+	float:none;
+	margin-left:auto;
+	margin-right:auto;
+	border-width:0;
+}
+
+#page_nav a {
+	margin-left:5px;
+	margin-right:5px;
+	float:left;
+	display:block;
+	text-align:center;
+	vertical-align:bottom;
+	text-decoration:none;
+	background:#8FBC8F;
+	color:#fff;
+	font-weight:700;
+	font-size:24px;
+	text-transform:uppercase;
+	padding:15px;
+}
+
+#page_nav tr:hover {
+	background-color:transparent;
+}
+
+a:link,a:visited {
+	color:#4DA0C6;
+}
+
+#tour,#hotel {
+	box-shadow:5px 5px 10px -1px rgba(0,0,0,0.37);
+	width:900px;
+	height:auto;
+	background:#eeffe7;
+	overflow:hidden;
+	alignment:left;
+	margin:40px auto 0;
+	padding:30px;
+}
+
+#tour div,#hotel div {
+	text-align:left;
+	float:left;
+	alignment:center;
+}
+
+#tour img,#hotel img {
+	width:300px;
+	height:200px;
+	vertical-align:center;
+	padding-left:30px;
+	margin:auto;
+}
+
+#tour a,#tour button {
+	float:left;
+	margin-right:10px;
+	display:block;
+	text-align:center;
+	vertical-align:bottom;
+	text-decoration:none;
+	background:#8FBC8F;
+	color:#fff;
+	font-weight:700;
+	font-size:24px;
+	text-transform:uppercase;
+	padding:15px;
+}
+
+#tour a:hover,
+#tour button:hover,
+#details a:hover,
+#page_nav a:hover {
+	text-align:center;
+	color:#fff;
+	text-decoration:underline;
+	background:#556B2F;
+	padding:15px;
+}
+.reviews:not(:checked) > input,
+.rate:not(:checked) > input {
+	position:absolute;
+	top:-9999px;
+}
+
+.reviews:not(:checked) > label:before,
+.rate:not(:checked) > label:before {
+	content:'★ ';
+}
+
+.reviews > input:checked ~ label,
+.rate > input:checked ~ label,
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label,
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+	color:green;
+}
+
+input[type=text],
+input[type=password] {
+	width:60%;
+	font-size:24px;
+	background:#e5ffe5;
+	box-sizing:border-box;
+	margin:8px 0;
+	padding:12px 20px;
+}
+
+#form table,
+#page_nav table {
+	border-collapse:collapse;
+}
+
+#form td,
+#page_nav td {
+	border:none;
+	vertical-align:top;
+	horiz-align:center;
+}
+
+#form tr,
+#page_nav tr {
+	vertical-align:top;
+	horiz-align:center;
+}
+
+#form input,
+#form button {
+	width:100%;
+}
+
+#admin {
+	width: 200px;
+}
+
+#admin button{
+	padding:2px;
+	font-size: 14px;
+	margin-top: 10px;
+	width: 200px;
+}
